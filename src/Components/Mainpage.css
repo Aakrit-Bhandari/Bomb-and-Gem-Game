@@ -1,0 +1,74 @@
+.Main_Section
+{
+    display:flex;
+    border:3px solid yellow;
+    height:100vh;
+    justify-content: space-between;
+}
+span{
+    color:white;
+}
+h1{
+    color:white;
+}
+.Main_Section_Left
+{
+    text-align: center;
+    background-color: rgb(24, 35, 24);
+    width:450px;
+}
+.Main_Section_Left select{
+    color:white;
+    background-color:rgb(28, 26, 37);
+    width:300px;
+    height:40px;
+    outline:none;
+    border-radius: 10px;
+    border:1px solid gray;
+}
+.Main_Section_Left button{
+    width:300px;
+    height:40px;
+    background-color: rgb(0, 222, 0);
+    border-radius: 10px;
+    border:none;
+}
+.Main_Section_Right
+{
+    width:1080px;
+    display:flex;
+    align-items: center;
+    background-color: rgb(17, 17, 41);
+    justify-content: center;
+}
+.Right_Arranged_Boxes
+{
+    width:800px;
+    display:flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    height:850px;
+
+}
+.Box
+{
+    width:140px;
+    border:1px solid black;
+    height:140px;
+    background-color:rgb(79, 78, 78);
+    display:flex;
+    align-items:center;
+    border-radius:10px;
+    justify-content: center;
+}
+.Box img{
+    width:100px;
+}
+.Cover
+{
+    width:140px;
+    height:140px;
+    border-radius:10px;
+    background-color:rgb(50, 49, 49);
+}
